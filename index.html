@@ -1,71 +1,66 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<body>
-<style>
-  body{background-image:url("http://www.baltana.com/files/wallpapers-5/Dark-Pattern-High-Definition-Wallpaper-18021.jpg")}
-  h1{
-  text-weight:Bold;
-color:#FFFFFF;
-text-align: Center;
-font-family: Selawik Semibold;
-border-style:solid
-border-color:Purple;
-border-width: 1px 1px;
-font-size: 40px;
-  }
-	
- }
 
-</style>
- 
- <!--The stye sheet at the bottom is used for working with rounded picture using classes of style sheets(<style></style>) for border radius as doing it all in intext causes some interferences -->
-<style> 
-.img-circle {
-  border-radius: 50%; 
-}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Anando Zaman</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
 
-.button{
-
-  color: rgba(255, 255, 255, 0.8);
-  border-radius:8px;
-  transition: all 0.2s ease-in-out;
-}
-
-.glow-button:hover{
-
-  color:rgba(255,255,255,1);
-  box-shadow: 0 5px 15px rgna(145,92,182,. .4);
-}
-
-</style>
-
-  <h1> Hi, I'm Anando! </h1>
-  <p style="text-align:center;"><img src="/img/pic.jpg" class="img-circle" alt="javascriptimage" width="23%" height ="23%"></p> <!-- insert picture and center,intext style sheets always have double quotes, better to use CSS classes. CSS and stles have colon followed by value followed by semicolon -->
-  
-  <p style= "text-align:center; font-size: 24px; font-family:Selawik Semibold; color:#FFFFFF;"> Currently, I'm an aspiring Electrical & Computer Engineer studying @
-  	<span style="color:#DC143C"> McMasterU </span> <!-- Span is used to add a word within the paragraph and do specific changes, ie; color -->
-   </p>
-
-   <p style ="text-align:center;font-size: 24px; font-family:Selawik Semibold; color:#FFFFFF;">I'm an 
-   	<span style="color:#DC143C">Android & Arduino</span> 
-   hobbiest and specialize in 
-   <span style="color:#DC143C">electrical</span>
-    related projects!
-   </p>
-
-   <p style="text-align:center;"></p>
-
-<div style="text-align:center;">
-    
-    <a href="http://www.linkedin.com/in/anando-zaman" class ="button glow-button"> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width ="5%" height ="5%"></a>
-
-    <a href="https://github.com/Anando304" class ="button glow-button"> <img src="https://www.socialtalent.com/wp-content/uploads/2015/03/github-logo.jpg" width ="4%" height ="4%"></a>
-
-  <a href="https://www.facebook.com/AnandoAlpha" class ="button glow-button"> <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Facebook_icon_2013.svg" width ="5%" height ="5%"></a>
-
-   </div>
-
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Anando Zaman</a><button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="filter: invert(0%);">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" data-bs-hover-animate="bounce" style="filter: contrast(200%);padding: 18px;">Skills</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="bounce animated" style="height: 50;">Hi, I'm Anando!</h1><img class="img-fluid d-block mx-auto mb-5" src="assets/img/pic.jpg" data-bs-hover-animate="pulse" style="width: 40%;height: 40%;">
+            <h2 class="font-weight-light mb-0">Currently, I'm an aspiring Electrical &amp; Computer Engineer studying @<span>McMasterU</span></h2>
+        </div>
+        <p>I'm an &nbsp;<span id="span1" class="span1">Android &amp; Arduino</span>&nbsp;hobbiest and specialize in &nbsp;<span>Electrical &amp; Software&nbsp;</span>related projects</p>
+        <h1></h1>
+    </header>
+    <div class="text-primary bg-primary social-icons"><a href="#"></a><a href="https://www.facebook.com/AnandoAlpha"><i class="icon ion-social-facebook bg-light border-primary shadow" data-bs-hover-animate="pulse"></i></a><a href="http://www.linkedin.com/in/anando-zaman"><i class="icon ion-social-linkedin bg-light" data-bs-hover-animate="pulse"></i></a><a href="https://github.com/Anando304"><i class="icon ion-social-github bg-light" data-bs-hover-animate="pulse"></i></a></div>
+    <section
+        id="about" class="bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">Skills</h2>
+        </div>
+        <h1 id="headskills" class="headskills" style="margin: 28px;">Although I am always learning, I create my best work with the following Programming Languages &amp; Tools:</h1>
+        <h1 id="headskills" class="headskills" style="padding: 32px;">Languages &amp; Tools:</h1>
+        <ul class="list-group bg-danger" style="opacity: 1;filter: saturate(95%);">
+            <li class="list-group-item" style="color: #233343;opacity: 1;background-color: rgb(19,31,45);"><span style="color: rgb(21,117,205);">Arduino C/ Arduino IDE</span></li>
+            <li class="list-group-item" style="background-color: rgb(20,31,44);"><span style="color: rgb(180,20,220);">Bootstrap/CSS</span></li>
+            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(39,212,139);">HTML</span></li>
+            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(220,68,20);">Java/Android Studio</span></li>
+            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span>JavaScript/ Visual Studio Code</span></li>
+            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(15,222,209);">Python</span></li>
+            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(173,245,83);">Currently learning Angular</span></li>
+        </ul>
+        </section>
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright ©&nbsp;Anando Zaman 2019</small></div>
+        </div>
+        
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="assets/js/freelancer.js"></script>
+        <script src="assets/js/bs-animation.js"></script>
 </body>
-
 
 </html>
