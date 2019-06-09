@@ -11,9 +11,9 @@ header.masthead h1 {
   border-width: 1px 1px;
   font-size: 40px;
 }
-
+/* Can upload images @https://ibb.co, to access images from online rather than using the harddrive   */
 .bg-primary {
-  background-image: url("Darkpattern.jpg");
+  background: url("https://i.ibb.co/b6bdRCr/Darkpattern.jpg"); 
 }
 
 .ml-auto, .mx-auto {
