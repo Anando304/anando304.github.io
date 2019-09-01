@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/Carousel.css">
+    <link rel="stylesheet" href="assets/css/animate.css"> <!-- Wow.js animations CSS files-->
 </head>
 <!-- If you have HREFS COMPONENTS that are http, then convert them to https so that cloudflare and DNS platforms can secure your website! -->
 <body id="page-top">
@@ -22,41 +24,165 @@
                 aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive" style="filter: invert(0%);">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" data-bs-hover-animate="bounce" style="filter: contrast(200%);padding: 18px;">Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills" data-bs-hover-animate="bounce" style="filter: contrast(200%);padding: 18px;">Skills</a></li>
+
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Projects" data-bs-hover-animate="bounce" style="filter: contrast(200%);padding: 18px;">Projects</a></li>
+
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Contact" data-bs-hover-animate="bounce" style="filter: contrast(200%);padding: 18px;">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <header class="masthead bg-primary text-white text-center">
-        <div class="container">
-            <h1 class="bounce animated" style="height: 50;">Hi, I'm Anando!</h1><img class="img-fluid d-block mx-auto mb-5" src="assets/img/pic.jpg" data-bs-hover-animate="pulse" style="width: 40%;height: 40%;">
-            <h2 class="font-weight-light mb-0">Currently, I'm an <span style="color: rgb(42,247,108);">Big-Data Developer</span> @<span data-bs-hover-animate="pulse" style="color: rgb(93,187,245);"><a href = "https://www.bell.ca/">Bell Canada.</a></span></h2>
+        <div class="container fade">
+            <h1 class="bounce animated" style="height: 50;">Hi, I'm Anando!</h1><img class="img-fluid d-block mx-auto mb-5 " src="assets/img/pic.jpg" data-bs-hover-animate="pulse" style="width: 40%;height: 40%;">
+            <h2>I'm an aspiring <span id="span1" class="span1" data-bs-hover-animate="pulse">Software Engineer</span> studying @<a href="https://www.mcmaster.ca/"><span id="span1" class="span1" data-bs-hover-animate="pulse">McMasterU</span></a></h2>
         </div>
-        <h5>I'm also an aspiring <span id="span1" class="span1" data-bs-hover-animate="pulse">Software Engineer</span> studying @<a href="https://www.mcmaster.ca/"><span id="span1" class="span1" data-bs-hover-animate="pulse">McMasterU</span></a></h5>
-        <p>I have a passion for developing <span id="span1" class="span1" data-bs-hover-animate="pulse">mobile applications</span> alongside <span id="span1" class="span1" data-bs-hover-animate="pulse">embedded systems!</span><br>Feel free to check out my <a href="https://github.com/Anando304"><span style="color:rgb(66, 159, 246)">Github profile</span></a> below! </p>  
+        <div class = "fade">
+        <h2 class="font-weight-light mb-0" style="font-size: 26px;">I was previously a <span style="color: rgb(42,247,108);">Big-Data Developer Intern</span> @<span data-bs-hover-animate="pulse" style="color: rgb(93,187,245);"><a href = "https://www.bell.ca/">Bell Canada.</a></span></h2>    
+        
+        <p>I have a passion for <span id="span1" class="span1" data-bs-hover-animate="pulse">Data Science & Analytics</span> and developing <span id="span1" class="span1" data-bs-hover-animate="pulse">Mobile Applications!</span><br>Feel free to check out my <a href="https://github.com/Anando304"><span style="color:rgb(66, 159, 246)">Github profile</span></a> below! </p>  
+        </div>
     </header>
-    <div class="text-primary bg-primary social-icons" ><a href="#"></a><a href="https://www.facebook.com/AnandoAlpha"><i class="icon ion-social-facebook bg-light border-primary shadow" data-bs-hover-animate="pulse" style="color: rgb(59,89,152);"></i></a><a href="https://www.linkedin.com/in/anando-zaman"><i class="icon ion-social-linkedin bg-light border-primary shadow" data-bs-hover-animate="pulse" style="color: rgb(0,119,181);"></i></a><a href="https://github.com/Anando304"><i class="icon ion-social-github bg-light border-primary shadow" data-bs-hover-animate="pulse" style="color: rgb(0,0,0);" ></i></a></div>
+
     <section
-        id="about" class="bg-primary text-white mb-0">
+        id="skills" class="bg-primary text-white mb-0">
         <div class="container">
-            <h2 class="text-uppercase text-center text-white">Skills</h2>
+            <h2 class="text-uppercase text-center text-white wow fadeInUp"  data-wow-delay="0.5s">Skills</h2>
         </div>
-        <h1 id="headskills" class="headskills" style="margin: 28px;">Although I am always learning, I create my best work with the following Programming Languages &amp; Tools:</h1>
-        <h1 id="headskills" class="headskills" style="padding: 32px;">Languages &amp; Tools:</h1>
-        <ul class="list-group bg-danger" style="opacity: 1;filter: saturate(95%);">
-            <li class="list-group-item" style="color: #233343;opacity: 1;background-color: rgb(19,31,45);"><span style="color: rgb(21,117,205);">Arduino C/ Arduino IDE</span></li>
-            <li class="list-group-item" style="background-color: rgb(20,31,44);"><span style="color: rgb(180,20,220);">Bootstrap/CSS</span></li>
-            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(39,212,139);">HTML</span></li>
-            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(220,68,20);">Java/Android Studio</span></li>
-            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span>JavaScript</span></li>
-            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(15,222,209);">Python &amp; MATLAB</span></li>
-            <li class="list-group-item" style="background-color: rgb(20,31,43);"><span style="color: rgb(173,245,83);">NOSQL(Firebase) &amp;  SQL  databases</span></li>
-        </ul>
+        <h1 id="headskills" class="headskills wow fadeInUp"  data-wow-delay="0.5s" style="margin: 28px;">Although I am always learning, I create my best work with the following Programming Languages &amp; Tools:</h1>
+
+        <h1 id="Languages" class = "text-center wow fadeInUp"  data-wow-delay="0.5s" style="margin: 28px color:white; font-size: 24px;">Languages</h1>
+
+        <div class = "text-center wow fadeInUp"  data-wow-delay="0.5s" style=" padding-top: 20px;">
+
+            <a href="https://www.java.com/en/download/"><img src="https://icons-for-free.com/iconfiles/png/512/java+icon-1320167912601224138.png" style=" padding-top: 20px;" width = "180" height = "185" data-bs-hover-animate="pulse"></a> 
+            <!--http://pluspng.com/img-png/python-logo-png--728.png -->
+            <a href="https://www.python.org/"><img src="https://www.4sitestudios.com/sites/default/files/styles/forward_thinking_teaser/public/2018-08/python.png?itok=nWjmsw6N" width = "225" height = "175" data-bs-hover-animate="pulse"></a>
+
+
+
+            <a href="https://en.wikipedia.org/wiki/HTML"><img src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697066-html5-512.png" width = "245" height = "240" data-bs-hover-animate="pulse"></a>
+
+            <a href="https://www.mathworks.com/products/matlab.html"><img src="http://icons.iconarchive.com/icons/blackvariant/button-ui-requests-6/1024/MATLAB-icon.png" width = "195" height = "190" data-bs-hover-animate="pulse"></a>
+
+            <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://impact-hr.com/wp-content/uploads/2017/04/javascript_round.png" width = "170" height = "170" style=" padding-left: 20px;" data-bs-hover-animate="pulse"></a>
+
+            <a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" width = "170" height = "170" style=" padding-left: 20px;" data-bs-hover-animate="pulse"></a>
+            
+        </div>
+
+        <h1 id="Frameworks/Tools" class = "text-center wow fadeInUp"  data-wow-delay="0.5s" style="margin: 28px color:white; font-size: 24px; padding-top: 20px;">Frameworks/Tools</h1>
+
+        <div style=" padding-top: 20px;" class = "text-center wow fadeInUp"  data-wow-delay="0.5s">
+            <a href="https://firebase.google.com/"><img class = "rounded-circle" src="https://firebase.google.com/images/brand-guidelines/logo-vertical.png" style=" padding-left: 20px;" width = "170" height = "170" data-bs-hover-animate="pulse"> </a>
+
+            <a href="https://www.mysql.com/"><img src="https://i.dlpng.com/static/png/115894_preview.png" style=" padding-left: 20px;" width = "170" height = "170" data-bs-hover-animate="pulse"> </a>
+
+            <a href="https://palletsprojects.com/p/flask/"><img class = "rounded-circle" src="https://i0.wp.com/sourcedexter.com/wp-content/uploads/2017/09/flask-python.png?fit=640%2C400&ssl=1" style=" padding-left: 20px;" width = "170" height = "170" data-bs-hover-animate="pulse"> </a>
+
+            <a href="https://developer.android.com/studio"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Breezeicons-apps-48-android-studio.svg/1024px-Breezeicons-apps-48-android-studio.svg.png" style=" padding-left: 20px;" width = "190" height = "190" data-bs-hover-animate="pulse"> </a>
+
+            <a href="https://dialogflow.com/"><img class = "rounded-circle" src="https://i0.wp.com/hirendave.tech/wp-content/uploads/2019/01/unnamed-1.png?resize=460%2C260" style=" padding-left: 20px;" width = "180" height = "150" data-bs-hover-animate="pulse"> </a>
+
+            <a href="https://www.kommunicate.io/"><img class = "rounded-circle" src="https://fitsmallbusiness.com/wp-content/uploads/2019/02/Kommunicate.png" style=" padding-left: 20px;" width = "180" height = "150" data-bs-hover-animate="pulse"></a> 
+
+            <a href="https://www.seleniumhq.org/"><img class = "rounded-circle" src="https://flood.io/wp-content/uploads/2015/05/selenium-logo-DB9103D7CF-seeklogo.com_-300x270.png" style=" padding-left: 20px;" width = "180" height = "150" data-bs-hover-animate="pulse"></a> 
+
+            
+        </div>
+     
         </section>
+
+        <section id="Projects" class="bg-primary text-white mb-0 ">
+        <div class="container text-center">
+            <h2 class="text-uppercase text-white wow fadeInUp"  data-wow-delay="0.5s">Projects</h2>
+        </div>
+
+
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container wow fadeInUp"  data-wow-delay="0.5s" style="padding-top: 40px;">
+
+          <!-- Project Images with text -->
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <a href="https://www.kapwing.com/videos/5d3f37d6488f85001355972c"><img src="assets/img/TheSource.jpg" style="width:100%"></a>
+            <div class="text">Winner of the 2019 Bell Business Case</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <a href="https://marvelapp.com/41g4e74/screen/52779802"><img src="assets/img/FlexFinder.jpg" style="width:100%"></a>
+            <div class="text">An app to find a workout buddy nearby!</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <a href="https://www.kapwing.com/videos/5d6c4238fd08080013d5ed89"><img src="assets/img/DriverX.jpg" style="width:100%"></a>
+            <div class="text">A way to practice for G/G2 level drivers test!</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="assets/img/ToggleV2.png" style="width:100%">
+            <div class="text">No more sleeping with the music on. Turn off Spotify at a predefined time!</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <a href="https://drive.google.com/file/d/1Chpjh-wzdw-1yeZ6HIUAp_yVxqGl6UZc/view"><img src="assets/img/EQMS.png" style="width:100%"></a>
+            <div class="text">Email/Query management system for Big Data Systems</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <a href="https://www.youtube.com/watch?v=ZHgbO3aA8Ws"><img src="assets/img/Bot.jpg" style="width:100%"></a>
+            <div class="text">An autonomous bot which can also be controlled remotely!</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div> 
+
+        </section>
+
+        <section id="Contact" class="bg-primary text-white mb-0 ">
+        <div class="container text-center">
+            <h2 class="text-uppercase text-white wow fadeInUp"  data-wow-delay="0.5s">Contact</h2>
+
+            <h1 id="Frameworks/Tools" class = "text-center wow fadeInUp"  data-wow-delay="0.5s" style="margin: 28px color:white; font-size: 24px; padding-top: 20px;">Interested in getting in touch? I'm always open to conversations of everything <span class="span1">tech</span> but also outside of tech including <span class="span1">sports</span> and <span class="span1">movies!</span> Feel free to contact me through <span style="color: rgb(42,247,108);"><a href="mailto:anando100@gmail.com">email</a></span> or <a href="https://www.linkedin.com/in/anando-zaman">Linkedin!</a></h1>
+        </div>
+
+        <div class="text-primary bg-primary social-icons wow fadeInUp " data-wow-delay="0.7s" ><a href="#"></a><a href="https://www.facebook.com/AnandoAlpha"><i class="icon ion-social-facebook bg-light border-primary shadow" data-bs-hover-animate="pulse" style="color: rgb(59,89,152);"></i></a><a href="https://www.linkedin.com/in/anando-zaman"><i class="icon ion-social-linkedin bg-light border-primary shadow" data-bs-hover-animate="pulse" style="color: rgb(0,119,181);"></i></a><a href="https://github.com/Anando304"><i class="icon ion-social-github bg-light border-primary shadow" data-bs-hover-animate="pulse" style="color: rgb(0,0,0);" ></i></a></div>
+            
+
+        </section>
+
+
+
         
         <script src="assets/js/jquery.min.js"></script>
+        <script src ="assets/js/wow.min.js"></script>
+        <script>
+              new WOW().init();
+        </script>
+        <script src="assets/js/Carousel.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="assets/js/freelancer.js"></script>
         <script src="assets/js/bs-animation.js"></script>
 </body>
